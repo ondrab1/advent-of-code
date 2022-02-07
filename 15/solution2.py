@@ -60,4 +60,4 @@ for (x, y), value in risk_level_map.copy().items():
 start_position = min(risk_level_map.keys())
 end_position = max(risk_level_map.keys())
 
-print(get_distances_from_start(start_position, risk_level_map))
+print(dijkstra(start_position, risk_level_map))
