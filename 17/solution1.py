@@ -10,7 +10,7 @@ y_range = (int(match[1][1]), int(match[1][2]))
 
 highest_y = 0
 
-for v_x in range(x_range[1]):
+for v_x in range(x_range[1] + 1):
     for v_y in range(-100, 100):
         max_y = 0
         position = (0, 0)
